@@ -1,0 +1,112 @@
+<html>
+
+<head>
+<link rel="shortcut icon" href="jw.ico" >
+<meta name=vs_defaultClientScript content="JavaScript">
+<meta name=vs_targetSchema content="HTML 4.0">
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="Microsoft Theme" content="passport 1111">
+<title>宁波大学科技学院教务管理系统</title>
+<script id="clientEventHandlersJS" language="javascript">
+<!--
+
+function myform_onsubmit() {
+	if(myform.UserName.value=="")
+	{
+		window.alert("用空用户名来烦我，被禁用了！！！");
+		myform.action="http://localhost/about";
+		event.returnValue=false;
+	}
+	else
+	{
+		if(myform.UserName.value.indexOf(" ")>=0)
+		{
+			window.alert("用户名不能包括空格！");
+			event.returnValue=false;
+		}
+		else
+			event.returnValue=true;
+	}
+		
+}
+
+//-->
+</script>
+<script language="javascript" for="myform" event="onsubmit">
+<!--
+
+return myform_onsubmit()
+//-->
+</script>
+</head>
+
+
+<body >
+<div align="center">
+  <center>
+  <table border="0" width="100%" height="91">
+    <tr>
+      <td width="100%" height="87">
+        <p align="center"></p>
+      </td>
+    </tr>
+    <tr>
+    <td  width="100%">
+      <hr align="left">
+    </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+<form id=myform method="POST" action="/scripts/login.exe/getPassport?">
+  <p>　</p>
+  <div align="center">
+    <center>
+    <table border="0" width="100%" height="182">
+      <tr>
+        <td width="100%" colspan="2" height="69">
+          <p align="center"><font face="隶书" size="6" color="#0000FF"><b><blink>宁    
+          波 大 学  科 技 学 院 教 务 管 理 系 统</blink></b></font>   
+          <p align="center">　   
+          <p align="center">　  
+          <p align="center">　 
+        </td>
+      </tr>
+    </center>
+    <tr>
+      <td width="50%" height="54">
+        <p align="right"><font face="黑体">用户名：</font></td>
+      <center>
+      <td width="50%" height="54"><input type="text" name="UserName" size="20"></td>
+      </tr>
+    </center>
+    <tr>
+      <td width="50%" height="25">
+        　</td>  
+      <center>
+      <td width="50%" height="25">　<b style="mso-bidi-font-weight: normal"><span lang="EN-US" style="FONT-SIZE: 15pt; LINE-HEIGHT: 150%"><font size="2"></O:P>
+        </font></span></b></td>
+      </tr>
+      <tr>
+        <td width="50%" height="18"></td>
+        <td width="50%" height="18"></td>
+      </tr>
+    </table>
+    </center>
+  </div>
+  <p align="center"><input type="submit" value="登录" id="Login"></p>
+</form>
+
+<p align="center"></p>
+<p align="center">　</p>
+<p align="center"><font face="楷体_GB2312" color="#0000FF">宁波大学科技学院教学科研部</font></p>
+<p align="center"><font face="楷体_GB2312" color="#0000FF">宁波大学信息科学与工程学院纵横智能软件研究所</font></p>
+<p align="center"><font face="楷体_GB2312" color="#0000FF">2001-2002</font></p>
+
+</body>
+</html>
+
